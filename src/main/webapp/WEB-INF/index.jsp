@@ -31,8 +31,18 @@
 	<!-- //// MAIN AREA //////// -->
 	<main role="main">
 		<div class="container mt-4">
-			<h1>TEST TEST TEST</h1>
-
+			<div class="row">
+				<button type="button" class="btn btn-primary col">
+					<h1>
+						<a href="">Date Template</a>
+					</h1>
+				</button>
+				<button type="button" class="btn btn-success col">
+					<h1>
+						<a href="">Time Template</a>
+					</h1>
+				</button>
+			</div>
 		</div>
 	</main>
 
