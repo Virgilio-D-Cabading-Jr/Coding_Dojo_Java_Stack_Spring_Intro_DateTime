@@ -34,6 +34,9 @@
 			<h1 class="text-warning">
 				Current Time:
 			</h1>
+			<h1 class="time-string">
+				<c:out value="${ time }"></c:out>
+			</h1>
 		</div>
 	</main>
 
