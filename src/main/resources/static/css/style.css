@@ -17,3 +17,11 @@ body {
 a {
 	color: white;
 }
+
+.date-string {
+	color: dodgerblue;
+}
+
+.time-string {
+	color: green;
+}
