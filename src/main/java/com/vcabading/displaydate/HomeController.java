@@ -10,8 +10,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-@GetMapping("/")
-public String index(Model model) {
-	return "index.jsp";
-}
+	
+	//	---- INDEX ----------------------------------------------
+	@GetMapping("/")
+	public String index(Model model) {
+		return "index.jsp";
+	}
+	
+//	---- DATE ----------------------------------------------
+	@GetMapping("/date")
+	public String date(Model model) {
+		return "date.jsp";
+	}
 }

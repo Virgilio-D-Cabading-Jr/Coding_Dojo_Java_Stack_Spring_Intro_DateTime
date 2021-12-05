@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!--/////////////////////////////////////////////////////
-//	INDEX JSP
+//	DATE JSP
 ///////////////////////////////////////////////////////// -->
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
     <!-- ---- CSS LINKS --------------------------------- -->
     <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Date Time</title>
+	<title>Date TIME</title>
 </head>
 <body>
     	<!-- //// HEADER //////// -->
@@ -31,18 +31,9 @@
 	<!-- //// MAIN AREA //////// -->
 	<main role="main">
 		<div class="container mt-4">
-			<div class="row">
-				<button type="button" class="btn btn-primary col">
-					<h1>
-						<a href="/date">Date Template</a>
-					</h1>
-				</button>
-				<button type="button" class="btn btn-success col">
-					<h1>
-						<a href="">Time Template</a>
-					</h1>
-				</button>
-			</div>
+			<h1 class="text-warning">
+				Current Date:
+			</h1>
 		</div>
 	</main>
 
@@ -50,4 +41,5 @@
     <!-- ---- JAVASCRIPT LINKS ---------------------------- -->
     <script src="/webjars/jquery/jquery.min.js"></script>
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>

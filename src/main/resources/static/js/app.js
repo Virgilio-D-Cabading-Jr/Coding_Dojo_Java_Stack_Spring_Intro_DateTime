@@ -2,4 +2,4 @@
 //	APP JAVASCRIPT
 ///////////////////////////////////////////////////////////
 
-alert("Date Time!");
+alert("This is the Date Template!");
