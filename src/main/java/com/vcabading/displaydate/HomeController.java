@@ -20,7 +20,8 @@ public class HomeController {
 	//	---- DATE ----------------------------------------------
 	@GetMapping("/date")
 	public String date(Model model) {
-		String date = DateTime.getDate();
+		String date = DateTime.getDayOfWeek() + ", the " + DateTime.getDayOfMonth();
+		date += " of " + DateTime.getMonth() + ", " + DateTime.getYear();
 		model.addAttribute("date", date);
 		return "date.jsp";
 	}

@@ -9,8 +9,40 @@ public class DateTime {
         Date currentDate = new Date(System.currentTimeMillis()); 	// Get the Current Date
         String pattern = "EEEEE, MMMMM dd, yyyy";     	// Format the Currrent Date to get the Day of Week, Month, Day, and Year
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-        String currentDay = simpleDateFormat.format(currentDate);
-        return currentDay;
+        String output = simpleDateFormat.format(currentDate);
+        return output;
+	}
+	
+	public static String getDayOfWeek() {
+        Date currentDate = new Date(System.currentTimeMillis()); 	// Get the Current Date
+        String pattern = "EEEEE";     	// Format the Currrent Date to get the Day of Week, Month, Day, and Year
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        String output = simpleDateFormat.format(currentDate);
+        return output;
+	}
+	
+	public static String getDayOfMonth() {
+        Date currentDate = new Date(System.currentTimeMillis()); 	// Get the Current Date
+        String pattern = "dd";     	// Format the Currrent Date to get the Day of Week, Month, Day, and Year
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        String output = simpleDateFormat.format(currentDate);
+        return output;
+	}
+	
+	public static String getMonth() {
+        Date currentDate = new Date(System.currentTimeMillis()); 	// Get the Current Date
+        String pattern = "MMMMM";     	// Format the Currrent Date to get the Day of Week, Month, Day, and Year
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        String output = simpleDateFormat.format(currentDate);
+        return output;
+	}
+	
+	public static String getYear() {
+        Date currentDate = new Date(System.currentTimeMillis()); 	// Get the Current Date
+        String pattern = "yyyy";     	// Format the Currrent Date to get the Day of Week, Month, Day, and Year
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        String output = simpleDateFormat.format(currentDate);
+        return output;
 	}
 	
 	public static String getTime() {
