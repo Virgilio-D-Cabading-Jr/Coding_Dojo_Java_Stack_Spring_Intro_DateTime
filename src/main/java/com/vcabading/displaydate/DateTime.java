@@ -15,7 +15,7 @@ public class DateTime {
 	
 	public static String getTime() {
 		Date currentDate = new Date(System.currentTimeMillis()); 	// Get the Current Date
-		String pattern = "HH:mm:ss aa z";           	// Format the Current Time to get Hour, Minute, Seconds, AM/PM, and Time Zone
+		String pattern = "hh:mm aa z";           	// Format the Current Time to get Hour, Minute, Seconds, AM/PM, and Time Zone
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
         String currentTime = simpleDateFormat.format(currentDate);
         return currentTime;
