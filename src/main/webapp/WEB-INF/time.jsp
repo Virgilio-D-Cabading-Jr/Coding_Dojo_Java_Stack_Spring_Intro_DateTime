@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!--/////////////////////////////////////////////////////
-//	DATE JSP
+//	TIME JSP
 ///////////////////////////////////////////////////////// -->
 
 <!DOCTYPE html>
@@ -32,10 +32,7 @@
 	<main role="main">
 		<div class="container mt-4">
 			<h1 class="text-warning">
-				Current Date:
-			</h1>
-			<h1 class="date-string">
-				<c:out value="${ date }"></c:out>
+				Current Time:
 			</h1>
 		</div>
 	</main>
@@ -44,5 +41,5 @@
     <!-- ---- JAVASCRIPT LINKS ---------------------------- -->
     <script src="/webjars/jquery/jquery.min.js"></script>
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/time.js"></script>
 </body>

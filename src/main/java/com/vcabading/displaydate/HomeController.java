@@ -17,9 +17,19 @@ public class HomeController {
 		return "index.jsp";
 	}
 	
-//	---- DATE ----------------------------------------------
+	//	---- DATE ----------------------------------------------
 	@GetMapping("/date")
 	public String date(Model model) {
+		String date = DateTime.getDate();
+		model.addAttribute("date", date);
 		return "date.jsp";
+	}
+	
+	//	---- TIME ----------------------------------------------
+	@GetMapping("/time")
+	public String time(Model model) {
+		String time = DateTime.getTime();
+		model.addAttribute("time", time);
+		return "time.jsp";
 	}
 }

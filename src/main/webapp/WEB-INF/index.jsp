@@ -32,14 +32,14 @@
 	<main role="main">
 		<div class="container mt-4">
 			<div class="row">
-				<button type="button" class="btn btn-primary col">
+				<button type="button" class="btn btn-success col">
 					<h1>
 						<a href="/date">Date Template</a>
 					</h1>
 				</button>
-				<button type="button" class="btn btn-success col">
+				<button type="button" class="btn btn-danger col">
 					<h1>
-						<a href="">Time Template</a>
+						<a href="/time">Time Template</a>
 					</h1>
 				</button>
 			</div>
